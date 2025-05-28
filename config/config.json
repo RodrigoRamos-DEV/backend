@@ -1,0 +1,24 @@
+
+{
+  "development": {
+    "username": "postgres",  
+    "password": "123", 
+    "database": "sistema_ark_db",    
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "SUA_SENHA_DO_POSTGRES",
+    "database": "sistema_ark_test_db",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "SUA_SENHA_DO_POSTGRES",
+    "database": "sistema_ark_production_db",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
